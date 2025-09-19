@@ -3,7 +3,7 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import GithubProvider from "next-auth/providers/github";
 import User from "@/models/User";
 import { signJwtToken } from "@/lib/jwt";
-import bcrypt from 'bcrypt'
+import bcryptjs from 'bcryptjs';
 import db from "@/lib/db";
 
 

@@ -1,5 +1,5 @@
 import db from '@/lib/db'
-import bcrypt from 'bcrypt'
+import bcryptjs from 'bcryptjs';
 import User from '@/models/User'
 // import getCorsHeaders from '@/lib/apiCors'
 
