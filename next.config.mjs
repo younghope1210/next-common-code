@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    reactStrictMode: false, 
+    maxDuration: 10,
     images: {
         remotePatterns: [
             { hostname: 'covers.openlibrary.org', protocol: 'https', port: '' }
