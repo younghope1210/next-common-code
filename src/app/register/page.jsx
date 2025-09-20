@@ -32,7 +32,7 @@ const Register = () => {
 
     try {
 
-      const res = await fetch("http://127.0.0.1:3000/api/register", {
+      const res = await fetch("/api/register", {
         headers: {
           "Content-Type": "application/json"
       },

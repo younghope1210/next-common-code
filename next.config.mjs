@@ -11,7 +11,7 @@ const nextConfig = {
             topLevelAwait: true,
         }
 
-        // 💡 여기가 중요! isServer일 때만 bcrypt를 externals에 추가
+        // isServer일 때만 bcrypt를 externals에 추가
         if (isServer) {
             config.externals.push('bcrypt'); // bcrypt 모듈을 외부로 선언
         }

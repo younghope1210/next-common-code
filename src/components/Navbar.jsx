@@ -22,7 +22,7 @@ const Navbar = () => {
 
     const fetchUser = async () => {
         try {
-            const res = await fetch(`http://127.0.0.1:3000/api/user/${session?.user?._id}`);
+            const res = await fetch(`/api/user/${session?.user?._id}`);
             const resData = await res.json();
 
             setUserData(resData)
