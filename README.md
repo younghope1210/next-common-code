@@ -94,7 +94,7 @@
         {/##### - 모달 내용 ##### -/}
     </Modal>
 
-### 🛠️ 기술 스택 (Tech Stack)
+### 기술 스택 (Tech Stack)
 #### Frontend Framework: Next.js 13 (App Router)
 ##### - Next.js API Route handler  (백엔드)
     export async function POST(req: NextRequest) { /##### - ... ##### -/ }
@@ -129,7 +129,7 @@
 #### Calendar UI: react-day-picker
 ##### - react-day-picker Calendar 컴포넌트 사용  (클라이언트)
     <DayPicker mode="single" selected={date} onSelect={setDate} />
-### 💻 핵심 아키텍처 및 데이터 흐름 (Core Architecture & Data Flow)
+### 핵심 아키텍처 및 데이터 흐름 (Core Architecture & Data Flow)
 ##### 본 프로젝트는 클라이언트와 서버, 데이터베이스 간의 명확한 역할 분담과 유기적인 소통에 중점을 둡니다.
 
 ##### 통합 풀스택: Next.js App Router를 사용하여 프론트엔드와 백엔드(API Routes)를 하나의 프로젝트 내에서 통합 관리, 개발 생산성과 효율성을 극대화합니다.
